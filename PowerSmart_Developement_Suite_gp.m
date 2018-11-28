@@ -60,7 +60,7 @@ handles.output = hObject;
 
 %% Creation of Tabs in Input Panel
 tbgrp1=uitabgroup(handles.InputPanel);
-IPT1=uitab('Parent',tbgrp1,'Title','General_test'); % Input Panel Controller Design Tab(RESIZED)
+IPT1=uitab('Parent',tbgrp1,'Title','General Purpose'); % Input Panel Controller Design Tab(RESIZED)
 %% Creation of Tabs in Graphics Panel
 % tbgrp2=uitabgroup(handles.GraphicsPanel);
 % GPT1=uitab('Parent',tbgrp2,'Title','Circuit'); % Graphics panel Circuit Tab
@@ -204,7 +204,7 @@ end
 
 
 % --- Executes during object creation, after setting all properties.
-function GraphicsPaneSlider_CreateFcn(hObject, eventdata, handles)
+function GraphicsPaneSlider_CreateFcn(hObject, eventdata, ~)
 % hObject    handle to GraphicsPaneSlider (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
